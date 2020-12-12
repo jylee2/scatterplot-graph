@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Make the site responsive -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Load Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <!-- Font Awesome for Twitter Icon -->            
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Load custom css -->
+      <link rel="stylesheet" href="style.css">
+    <title>Scatterplot Graph</title>
+  </head>
+  <body>
+    <!-- HTML element with Bootstrap container class -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 mainCenter">
+          <h4>Cycle Race: 35 Fastest Ascent of the Alpe d'Huez Climb</h4>
+          <div id="insert-graph"></div>
+          <div id="legend"></div>
+          <div id="tooltip"></div>
+          <p>Scatterplot Graph by <a href="#" target="_blank">Jun</a></p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </body>
+  <!-- scripts -->
+    <!-- Load D3.js for data visualisation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>
+    <!-- The following src don't work -->
+    <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script>  -->
+		<!-- <script src="https://d3js.org/d3-selection.v1.min.js"></script> -->
+    <!-- Load JS Component -->
+    <script src="main.js"></script>
+    <!-- Load freeCodeCamp test script -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

@@ -1,0 +1,21 @@
+.mainCenter {
+    width: 100%;                
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;            
+}
+.dot:hover {
+    fill: brown;
+}
+h4 {
+    font-weight: bold;
+}
+#title, #x-axis, #y-axis, #y-axis-label {
+    font-weight: bold;
+    font-size: 8pt;
+}
+p {
+    font-size: 10pt;
+}
